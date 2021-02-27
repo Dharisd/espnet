@@ -19,6 +19,8 @@ if [[ "zh" == *"${lang}"* ]]; then
   nbpe=2500
 elif [[ "fr" == *"${lang}"* ]]; then
   nbpe=350
+elif [[ "dv" == *"${lang}"* ]]; then
+  nbpe=30
 elif [[ "es" == *"${lang}"* ]]; then
   nbpe=235
 else
