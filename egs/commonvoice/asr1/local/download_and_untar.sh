@@ -63,7 +63,7 @@ if [ ! -f $filepath ]; then
   echo "$0: downloading data from $url.  This may take some time, please be patient."
 
   cd $data
-  if ! wget --no-check-certificate $url -O $filename; then
+  if ! wget --no-check-certificate -O $filename $url; then
     echo "$0: error executing wget $url"
     exit 1;
   fi
